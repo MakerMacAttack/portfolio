@@ -1,11 +1,23 @@
 import React from "react";
 import "./Footer.css";
+// import header from '../../../../public/assets/gi'
 
 function Footer(props) {
   return (
-    <div>
-      <h3>This is the footer</h3>
-    </div>
+    <footer>
+      <p>Tech Media Management &trade;</p>
+      <a
+        href="https://github.com/MakerMacAttack/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          id="github-logo"
+          alt="The GitHub Logo"
+          src="/../../../../public/assets/github.png"
+        />
+      </a>
+    </footer>
   );
 }
 
