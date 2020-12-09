@@ -1,0 +1,13 @@
+#footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+
+#footbox {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
