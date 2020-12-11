@@ -1,0 +1,16 @@
+.job {
+  margin: 50px auto;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.job-title {
+  font-style: italic;
+}
