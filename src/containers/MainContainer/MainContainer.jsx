@@ -11,7 +11,7 @@ import "./MainContainer.css";
 
 export default function MainContainer(props) {
   return (
-    <div>
+    <main>
       <Switch>
         <Route path="/projects">
           <Projects />
@@ -35,6 +35,6 @@ export default function MainContainer(props) {
           <About />
         </Route>
       </Switch>
-    </div>
+    </main>
   );
 }

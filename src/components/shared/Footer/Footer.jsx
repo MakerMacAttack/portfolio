@@ -14,9 +14,9 @@ function Footer(props) {
           rel="noreferrer"
         >
           <img
-            id="github-logo"
+            className="icon"
             alt="The GitHub Logo"
-            src={"../assets/github.png"}
+            src={"../assets/GitHubIcon.png"}
           />
         </a>
         <a
@@ -25,9 +25,9 @@ function Footer(props) {
           rel="noreferrer"
         >
           <img
-            id="linkedin-logo"
+            className="icon"
             alt="The LinkedIn Logo"
-            src={"../../../../public/assets/linkedin.png"}
+            src={"../assets/LinkedInIcon.png"}
           />
         </a>
       </div>

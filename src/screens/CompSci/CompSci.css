@@ -1,0 +1,12 @@
+#tubes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 80vw;
+  margin: 0 auto;
+  height: 800px;
+}
+
+#tubes > iframe {
+  width: 95%;
+  height: 95%;
+}
