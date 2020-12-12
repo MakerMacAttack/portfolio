@@ -7,7 +7,7 @@ export default function About(props) {
     <div id="about">
       <h1>Mac May</h1>
       <img id="profile" alt="Mac" src={"../assets/MacProfile.jpg"} />
-      <p>Back-End Engineer | Full-Stack Developer</p>
+      <h3>Back-End Engineer | Full-Stack Developer</h3>
       <p>
         I'm Mac. Nice to meet you. I believe that careful planning creates
         reliable code which can be easily updated as needs evolve.

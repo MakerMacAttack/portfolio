@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer(props) {
   return (
-    <div id="footer">
+    <footer>
       <div id="footbox">
         <p>Tech Media Management &trade;</p>
         <p>2020 &copy;</p>
@@ -31,7 +31,7 @@ function Footer(props) {
           />
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
 

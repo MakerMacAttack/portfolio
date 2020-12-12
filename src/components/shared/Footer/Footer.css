@@ -1,11 +1,13 @@
-.icon {
-  height: 20px;
-}
-
-#footer {
+footer {
   width: 100vw;
+  height: 40px;
   position: fixed;
   bottom: 0;
+  background-color: #8963ba;
+}
+
+.icon {
+  height: 20px;
 }
 
 #footbox {
@@ -15,3 +17,11 @@
   align-items: center;
   margin: 0 auto;
 }
+
+/* #footbox > p {
+  color: unset;
+  background-color: unset;
+  font-size: unset;
+  max-width: unset;
+  margin: unset;
+} */

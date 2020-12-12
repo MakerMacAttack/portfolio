@@ -1,0 +1,17 @@
+main {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  /* background: content-box linear-gradient(to bottom left, red, black);
+  background-size: 100vw 100vh;
+  background-attachment: fixed; */
+}
+
+p {
+  /* color: #ffffff;
+  background-color: rgba(00, 00, 00, 0.5);
+  max-width: 60vw;
+  margin: 0 auto; */
+  font-size: 20px;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: rgba(255, 255, 49, 0.7);
+}
