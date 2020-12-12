@@ -5,15 +5,15 @@ export default function CompSci(props) {
   return (
     <div>
       <h1 class-name="screen-title">Core Strength</h1>
-      <p>
+      <p className="body-text">
         My graduate studies in Computer Science provide the solid foundation I
         draw on to plan and execute reliable code.
       </p>
-      <p>
+      <p className="body-text">
         My first class had a few video project requirements which I'm providing
         here.
       </p>
-      <p>
+      <p className="body-text">
         They represent my understanding of the basics that underly all
         programming languages, with a touch of personality.
       </p>

@@ -7,9 +7,9 @@ export default function Contact(props) {
     <div>
       <h1 class-name="screen-title">Don't be a stranger</h1>
       <h3 className="sub-title">Call or text</h3>
-      <p>Phone: 202.306.1913</p>
+      <p className="body-text">Phone: 202.306.1913</p>
       <h3 className="sub-title">The lost art of letter writing</h3>
-      <p>Email: tmcpbmay [at] gmail [point] com</p>
+      <p className="body-text">Email: tmcpbmay [at] gmail [point] com</p>
       <h3 className="sub-title">Use this convenient form</h3>
       <ContactForm />
     </div>
