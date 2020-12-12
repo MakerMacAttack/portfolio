@@ -1,0 +1,9 @@
+#skillz {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+#skillz > ul {
+  text-align: left;
+}
