@@ -10,6 +10,11 @@ footer {
   height: 20px;
 }
 
+.foot-text {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+}
+
 #footbox {
   display: flex;
   width: 70vw;
@@ -17,11 +22,3 @@ footer {
   align-items: center;
   margin: 0 auto;
 }
-
-/* #footbox > p {
-  color: unset;
-  background-color: unset;
-  font-size: unset;
-  max-width: unset;
-  margin: unset;
-} */

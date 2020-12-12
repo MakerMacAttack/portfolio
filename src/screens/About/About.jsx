@@ -5,14 +5,14 @@ import "./About.css";
 export default function About(props) {
   return (
     <div id="about">
-      <h1>Mac May</h1>
+      <h1 class-name="screen-title">Mac May</h1>
       <img id="profile" alt="Mac" src={"../assets/MacProfile.jpg"} />
-      <h3>Back-End Engineer | Full-Stack Developer</h3>
+      <h3 className="sub-title">Back-End Engineer | Full-Stack Developer</h3>
       <p>
         I'm Mac. Nice to meet you. I believe that careful planning creates
         reliable code which can be easily updated as needs evolve.
       </p>
-      <h3>My Journey</h3>
+      <h3 className="sub-title">My Journey</h3>
       <p>
         As a youth, I had two passions. Videography, and computer programming. I
         made the tough decision to pursue video first, and{" "}

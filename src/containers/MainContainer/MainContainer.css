@@ -6,12 +6,16 @@ main {
   background-attachment: fixed; */
 }
 
-p {
+.screen-title {
+  font-family: "Gentium Book Basic", serif;
+}
+
+.body-text {
   /* color: #ffffff;
   background-color: rgba(00, 00, 00, 0.5);
   max-width: 60vw;
   margin: 0 auto; */
   font-size: 20px;
   -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: rgba(255, 255, 49, 0.7);
+  -webkit-text-stroke-color: rgba(255, 255, 49, 0.4);
 }

@@ -8,7 +8,7 @@ export default function Project({ project }) {
   return (
     <div>
       <a href={project.link} target="_blank" rel="noreferrer">
-        <h3>{project.title}</h3>
+        <h3 className="sub-title">{project.title}</h3>
       </a>
       <a href={github} target="_blank" rel="noreferrer">
         <p>Github repo</p>

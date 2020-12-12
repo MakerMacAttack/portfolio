@@ -8,6 +8,10 @@ header {
   border-bottom: solid 4px #000080;
 }
 
+.head-link {
+  font-family: "Playball", cursive;
+}
+
 #navbox {
   display: flex;
   justify-content: space-around;

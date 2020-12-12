@@ -4,7 +4,7 @@ import "./CompSci.css";
 export default function CompSci(props) {
   return (
     <div>
-      <h1>Core Strength</h1>
+      <h1 class-name="screen-title">Core Strength</h1>
       <p>
         My graduate studies in Computer Science provide the solid foundation I
         draw on to plan and execute reliable code.
