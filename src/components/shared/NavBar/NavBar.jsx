@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 export default function NavBar(props) {
   return (
-    <div>
+    <header>
       <div id="navbox">
         <Link to="/">Home</Link>
         <Link to="/contact">Contact Me</Link>
@@ -14,6 +14,6 @@ export default function NavBar(props) {
         <Link to="/projects">My Projects</Link>
         <Link to="/compsci">CS Expertise</Link>
       </div>
-    </div>
+    </header>
   );
 }
