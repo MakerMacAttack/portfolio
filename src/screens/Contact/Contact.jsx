@@ -5,11 +5,12 @@ import "./Contact.css";
 export default function Contact(props) {
   return (
     <div>
-      <h1>Don't be a stranger</h1>
-      <h3>Phone: 202.306.1913</h3>
-      <h3>
-        Email: tmcpbmay {"[at]"} gmail {"[point]"} com
-      </h3>
+      <h1 class-name="screen-title">Don't be a stranger</h1>
+      <h3 className="sub-title">Call or text</h3>
+      <p className="body-text">Phone: 202.306.1913</p>
+      <h3 className="sub-title">The lost art of letter writing</h3>
+      <p className="body-text">Email: tmcpbmay [at] gmail [point] com</p>
+      <h3 className="sub-title">Use this convenient form</h3>
       <ContactForm />
     </div>
   );

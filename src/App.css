@@ -3,11 +3,6 @@
   height: 100%;
 }
 
-p {
-  max-width: 75vw;
-  margin: 0 auto;
-}
-
 .modal-overlay {
   position: fixed;
   top: 0;

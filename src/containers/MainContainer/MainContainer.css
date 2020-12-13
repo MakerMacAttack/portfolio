@@ -1,0 +1,26 @@
+main {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  /* background: content-box linear-gradient(to bottom left, red, black);
+  background-size: 100vw 100vh;
+  background-attachment: fixed; */
+}
+
+.screen-title {
+  font-family: "Gentium Book Basic", serif;
+}
+
+.sub-title {
+  font-family: "Langar", cursive;
+}
+
+.body-text {
+  /* color: #ffffff;
+  background-color: rgba(00, 00, 00, 0.5);
+  max-width: 60vw;
+  margin: 0 auto; */
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: rgba(255, 255, 49, 0.5);
+}

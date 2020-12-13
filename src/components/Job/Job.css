@@ -9,8 +9,15 @@
 
 .company {
   font-weight: bold;
+  font-family: "Langar", cursive;
 }
 
 .job-title {
   font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .job {
+    width: 95vw;
+  }
 }

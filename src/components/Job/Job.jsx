@@ -7,7 +7,7 @@ export default function Job({ job }) {
     <div className="job">
       <p className="company">{`${company}, ${dates}`}</p>
       <p className="job-title">{title}</p>
-      <p>{description}</p>
+      <p className="body-text">{description}</p>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import "./Projects.css";
 export default function Projects(props) {
   return (
     <div>
-      <h1>The Fruits of my Labors</h1>
+      <h1 class-name="screen-title">The Fruits of my Labors</h1>
       {ProjectList.map((project, idx) => (
         <Project project={project} key={idx} />
       ))}

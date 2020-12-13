@@ -1,12 +1,21 @@
 #tubes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 80vw;
+  row-gap: 80px;
+  max-width: 90vw;
   margin: 0 auto;
-  height: 800px;
+  margin-bottom: 100px;
+  height: 55vw;
 }
 
-#tubes > iframe {
+.vid {
   width: 95%;
   height: 95%;
+}
+
+@media screen and (max-width: 900px) {
+  #tubes {
+    grid-template-columns: repeat(1, 1fr);
+    height: 240vw;
+  }
 }

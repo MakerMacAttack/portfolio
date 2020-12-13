@@ -1,0 +1,15 @@
+.mobile-button {
+  width: 225px;
+  min-height: 50px;
+  font-size: 20px;
+  padding-top: 20px;
+  background-color: rgba(249, 251, 231, 0.7);
+  border: solid 1px black;
+  transition: 0.4s;
+  text-decoration: none;
+  color: #000080;
+}
+
+.mobile-button:hover {
+  background-color: rgba(57, 255, 20, 0.7);
+}

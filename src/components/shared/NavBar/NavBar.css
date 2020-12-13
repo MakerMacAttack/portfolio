@@ -1,6 +1,102 @@
+header {
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 30px;
+  padding-top: 8px;
+  background-color: #fcfcfc;
+  border-bottom: solid 4px #000080;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-link {
+  font-family: "Playball", cursive;
+  font-size: 20px;
+}
+
+.burger-line {
+  width: 35px;
+  height: 5px;
+  background-color: #030303;
+  margin: 6px 0;
+  border-radius: 2px;
+  transition: 0.8s;
+}
+
+#contact {
+  font-family: "Playball", cursive;
+  font-size: 20px;
+}
+
 #navbox {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 70vw;
   margin: 0 auto;
+  margin-top: -7px;
+}
+
+#burger {
+  display: none;
+  margin-bottom: 5px;
+}
+
+#backslash {
+  -webkit-transform: rotate(-405deg) translate(-9px, 6px);
+  transform: rotate(-405deg) translate(-9px, 6px);
+}
+
+#gone {
+  opacity: 0;
+  -webkit-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+#forwardslash {
+  -webkit-transform: rotate(405deg) translate(-8px, -8px);
+  transform: rotate(405deg) translate(-8px, -8px);
+}
+
+#mobile-nav {
+  position: relative;
+  top: -4px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.8s;
+}
+
+.mobile-nav-closed {
+  left: -230px;
+}
+
+@media screen and (max-width: 1150px) {
+  .head-link {
+    font-size: 15px;
+  }
+
+  #contact {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .head-link {
+    display: none;
+  }
+
+  #navbox {
+    justify-content: space-between;
+    display: relative;
+    top: -100px;
+  }
+
+  #burger {
+    display: unset;
+  }
+
+  #contact {
+    font-size: 15px;
+  }
 }

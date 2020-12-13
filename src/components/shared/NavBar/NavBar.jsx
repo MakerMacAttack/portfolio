@@ -1,19 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import NavButtons from "../../../services/NavButtons";
+import MobileNav from "../../MobileNav/MobileNav";
+import NavButton from "../../NavButton/NavButton";
 import "./NavBar.css";
 
-export default function NavBar(props) {
+export default function NavBar() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div>
+    <header>
       <div id="navbox">
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contact Me</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/experience">Professional Experience</Link>
-        <Link to="/education">Education</Link>
-        <Link to="/projects">My Projects</Link>
-        <Link to="/compsci">CS Expertise</Link>
+        <div id="burger" onClick={() => setOpen((prevState) => !prevState)}>
+          <div className="burger-line" id={open ? "backslash" : "top"} />
+          <div className="burger-line" id={open ? "gone" : "middle"} />
+          <div className="burger-line" id={open ? "forwardslash" : "bottom"} />
+        </div>
+        {NavButtons.map((button, idx) => (
+          <NavButton key={idx} display={button.display} link={button.link} />
+        ))}
+        <Link to="/contact" id="contact">
+          Contact Me
+        </Link>
       </div>
-    </div>
+      <div
+        id="mobile-nav"
+        className={open ? "mobile-nav-open" : "mobile-nav-closed"}
+      >
+        {NavButtons.map((button, idx) => (
+          <MobileNav
+            key={idx}
+            display={button.display}
+            link={button.link}
+            setOpen={setOpen}
+          />
+        ))}
+      </div>
+    </header>
   );
 }
