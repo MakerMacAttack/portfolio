@@ -15,3 +15,9 @@
 .job-title {
   font-style: italic;
 }
+
+@media screen and (max-width: 600px) {
+  .job {
+    width: 95vw;
+  }
+}

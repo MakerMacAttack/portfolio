@@ -18,34 +18,50 @@ export default function CompSci(props) {
         programming languages, with a touch of personality.
       </p>
       <div id="tubes">
-        <iframe
-          title="bit"
-          src="https://www.youtube-nocookie.com/embed/aa1q5-OgPOA"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          title="winner"
-          src="https://www.youtube-nocookie.com/embed/KTVhDMxr8rY"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          title="binargraphy"
-          src="https://www.youtube-nocookie.com/embed/r2WcViAAOuU"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          title="warehouse"
-          src="https://www.youtube-nocookie.com/embed/FAGTqKqIaIc"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div>
+          <h3 className="sub-title">Binary Multiplication</h3>
+          <iframe
+            className="vid"
+            title="bit"
+            src="https://www.youtube-nocookie.com/embed/aa1q5-OgPOA"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div>
+          <h3 className="sub-title">Regular Expressions/DFA</h3>
+          <iframe
+            className="vid"
+            title="winner"
+            src="https://www.youtube-nocookie.com/embed/KTVhDMxr8rY"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div>
+          <h3 className="sub-title">Proof by Induction</h3>
+          <iframe
+            className="vid"
+            title="binargraphy"
+            src="https://www.youtube-nocookie.com/embed/r2WcViAAOuU"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div>
+          <h3 className="sub-title">Prime Factorization</h3>
+          <iframe
+            className="vid"
+            title="warehouse"
+            src="https://www.youtube-nocookie.com/embed/FAGTqKqIaIc"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
