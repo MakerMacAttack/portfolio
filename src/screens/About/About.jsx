@@ -18,8 +18,8 @@ export default function About(props) {
         made the tough decision to pursue video first, and{" "}
         <Link to="/experience">got a job out of college</Link> in live,
         nationally-broadcast news. I learned and grew a lot in my decade in that
-        industry, and when it came time for a new path in life, I decided to
-        pivot and explore my other passion.
+        industry, and when it came time for a new path in life, I decided I
+        could experience more by exploring my second passion.
       </p>
       <p className="body-text">
         Now, after studying the basics, graduate courses, and{" "}
