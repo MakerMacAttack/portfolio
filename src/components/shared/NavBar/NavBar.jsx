@@ -10,19 +10,6 @@ export default function NavBar() {
 
   return (
     <header>
-      <div
-        id="mobile-nav"
-        className={open ? "mobile-nav-open" : "mobile-nav-closed"}
-      >
-        {NavButtons.map((button, idx) => (
-          <MobileNav
-            key={idx}
-            display={button.display}
-            link={button.link}
-            setOpen={setOpen}
-          />
-        ))}
-      </div>
       <div id="navbox">
         <div id="burger" onClick={() => setOpen((prevState) => !prevState)}>
           <div className="burger-line" id={open ? "backslash" : "top"} />
@@ -35,6 +22,19 @@ export default function NavBar() {
         <Link to="/contact" id="contact">
           Contact Me
         </Link>
+      </div>
+      <div
+        id="mobile-nav"
+        className={open ? "mobile-nav-open" : "mobile-nav-closed"}
+      >
+        {NavButtons.map((button, idx) => (
+          <MobileNav
+            key={idx}
+            display={button.display}
+            link={button.link}
+            setOpen={setOpen}
+          />
+        ))}
       </div>
     </header>
   );
