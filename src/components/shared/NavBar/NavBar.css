@@ -67,7 +67,7 @@ header {
 }
 
 .mobile-nav-closed {
-  left: -180px;
+  left: -230px;
 }
 
 @media screen and (max-width: 1150px) {

@@ -15,7 +15,12 @@ export default function NavBar() {
         className={open ? "mobile-nav-open" : "mobile-nav-closed"}
       >
         {NavButtons.map((button, idx) => (
-          <MobileNav key={idx} display={button.display} link={button.link} />
+          <MobileNav
+            key={idx}
+            display={button.display}
+            link={button.link}
+            setOpen={setOpen}
+          />
         ))}
       </div>
       <div id="navbox">
