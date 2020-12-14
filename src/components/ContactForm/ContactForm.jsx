@@ -4,10 +4,10 @@ import "./ContactForm.css";
 
 export default function ContactForm(props) {
   const [formData, setFormData] = useState({
-    company: "",
     name: "",
     email: "",
-    body: "",
+    company: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -20,7 +20,11 @@ export default function ContactForm(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (formData.name === "" || formData.email === "" || formData.body === "") {
+    if (
+      formData.name === "" ||
+      formData.email === "" ||
+      formData.message === ""
+    ) {
       alert(
         "Looks like you forgot to fill in a required field before clicking Submit."
       );
@@ -30,7 +34,7 @@ export default function ContactForm(props) {
         company: "",
         name: "",
         email: "",
-        body: "",
+        message: "",
       });
       alert("Thank you! Mac will get back to you within one business day.");
     }
@@ -75,9 +79,9 @@ export default function ContactForm(props) {
         <textarea
           rows="4"
           cols="59"
-          name="body"
+          name="message"
           placeholder="Your Message*"
-          value={formData.body}
+          value={formData.message}
           onChange={handleChange}
         />
       </label>
