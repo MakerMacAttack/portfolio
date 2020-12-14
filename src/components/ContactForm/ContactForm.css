@@ -46,3 +46,20 @@
     ". . . submit submit . . .";
   row-gap: 5px;
 }
+
+@media screen and (max-width: 500px) {
+  #contact-form {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+      "name name name"
+      "company company company"
+      "email email email"
+      "phone phone phone"
+      "message message message"
+      "message message message"
+      "message message message"
+      ". submit .";
+    row-gap: 5px;
+  }
+}
