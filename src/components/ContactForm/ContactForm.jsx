@@ -5,8 +5,9 @@ import "./ContactForm.css";
 export default function ContactForm(props) {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     company: "",
+    email: "",
+    phone: "",
     message: "",
   });
 
@@ -34,6 +35,7 @@ export default function ContactForm(props) {
         company: "",
         name: "",
         email: "",
+        phone: "",
         message: "",
       });
       alert("Thank you! Mac will get back to you within one business day.");
@@ -41,51 +43,54 @@ export default function ContactForm(props) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div id="identifiers">
-        <label>
-          {/* Name: */}
-          <input
-            type="text"
-            name="name"
-            placeholder="Name*"
-            value={formData.name}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          {/* Company: */}
-          <input
-            type="text"
-            name="company"
-            placeholder="Company"
-            value={formData.company}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          {/* E-mail: */}
-          <input
-            type="text"
-            name="email"
-            placeholder="E-mail*"
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </label>
-      </div>
-      <label>
-        {/* Message: */}
+    <form onSubmit={handleSubmit} id="contact-form">
+      <label id="contact-name">
+        <input
+          type="text"
+          name="name"
+          placeholder="Name*"
+          value={formData.name}
+          onChange={handleChange}
+        />
+      </label>
+      <label id="contact-company">
+        <input
+          type="text"
+          name="company"
+          placeholder="Company"
+          value={formData.company}
+          onChange={handleChange}
+        />
+      </label>
+      <label id="contact-email">
+        <input
+          type="text"
+          name="email"
+          placeholder="E-mail*"
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </label>
+      <label id="contact-phone">
+        <input
+          type="text"
+          name="phone"
+          placeholder="Phone Number"
+          value={formData.phone}
+          onChange={handleChange}
+        />
+      </label>
+      <label id="contact-message">
         <textarea
-          rows="4"
-          cols="59"
+          // rows="4"
+          // cols="59"
           name="message"
           placeholder="Your Message*"
           value={formData.message}
           onChange={handleChange}
         />
       </label>
-      <input type="submit" />
+      <input type="submit" id="contact-submit" />
     </form>
   );
 }
