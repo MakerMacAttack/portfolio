@@ -6,12 +6,27 @@ export default function About(props) {
   return (
     <div id="about">
       <h1 class-name="screen-title">Mac May</h1>
-      <img id="profile" alt="Mac" src={"../assets/MacProfile.jpg"} />
-      <h3 className="sub-title">Back-End Engineer | Full-Stack Developer</h3>
-      <p className="body-text">
-        I'm Mac. Nice to meet you. I believe that careful planning creates
-        reliable code which can be easily updated as needs evolve.
-      </p>
+      <div id="about-box">
+        <p className="body-text" id="intro">
+          I'm Mac. Nice to meet you. I am searching for a new path in life as a
+          software engineer. My philosophy is that thoughtful planning leads to
+          reliable results. I've found that this solid foundation provides the
+          groundwork for my creative innovation, and has served me well in my
+          past as a coordinator for diverse teams. In first Congress and then
+          Drexel University, I proved that grand ideas are best constructed with
+          deliberate care. While at Drexel, I took advantage of the opportunity
+          to pursue graduate courses in programming and computer science, and
+          I'm ready now to start the next phase of my career. My ideal
+          opportunity involves creating elegant, robust code in an environment
+          which understand the value of authenticity.
+        </p>
+        <div>
+          <img id="profile" alt="Mac" src={"../assets/MacProfile.jpg"} />
+          <h3 className="sub-title">
+            Back-End Engineer | Full-Stack Developer
+          </h3>
+        </div>
+      </div>
       <h3 className="sub-title">My Journey</h3>
       <p className="body-text">
         As a youth, I had two passions. Videography, and computer programming. I
