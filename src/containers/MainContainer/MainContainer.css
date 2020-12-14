@@ -24,5 +24,5 @@ main {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
 }
