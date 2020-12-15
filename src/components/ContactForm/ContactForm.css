@@ -21,6 +21,7 @@
 
 #contact-message {
   grid-area: message;
+  align-self: stretch;
 }
 
 #contact-submit {
