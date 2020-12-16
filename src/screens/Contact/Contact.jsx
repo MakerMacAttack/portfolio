@@ -11,6 +11,7 @@ export default function Contact(props) {
       <h3 className="sub-title">The lost art of letter writing</h3>
       <p className="body-text">Email: tmcpbmay [at] gmail [point] com</p>
       <h3 className="sub-title">Use this convenient form</h3>
+      <p>(fields with a * are required)</p>
       <ContactForm />
     </div>
   );

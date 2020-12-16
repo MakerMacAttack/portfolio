@@ -68,7 +68,8 @@ header {
 }
 
 .mobile-nav-closed {
-  left: -230px;
+  /* left: -230px; */
+  transform: translateX(-105%);
 }
 
 @media screen and (max-width: 1150px) {

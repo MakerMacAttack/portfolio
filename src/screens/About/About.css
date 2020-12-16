@@ -1,3 +1,7 @@
+.about-link {
+  color: #daa520;
+}
+
 #about {
   width: 75vw;
   margin: 0 auto;
@@ -6,4 +10,25 @@
 #profile {
   height: 300px;
   border-radius: 50%;
+}
+
+#about-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#intro {
+  max-width: 500px;
+}
+
+.bio {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 750px) {
+  #about-box {
+    flex-direction: column-reverse;
+  }
 }
