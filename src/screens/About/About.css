@@ -1,3 +1,7 @@
+.about-link {
+  color: #daa520;
+}
+
 #about {
   width: 75vw;
   margin: 0 auto;
@@ -16,6 +20,11 @@
 
 #intro {
   max-width: 500px;
+}
+
+.bio {
+  max-width: 900px;
+  margin: 20px auto;
 }
 
 @media screen and (max-width: 750px) {
