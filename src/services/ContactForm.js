@@ -14,3 +14,4 @@ const submitContact = async (fields) => {
 };
 
 export default submitContact
+
