@@ -11,10 +11,10 @@ const NavButtons = [
   //   display: "Professional Experience",
   //   link: "/experience"
   // },
-  {
-    display: "Education",
-    link: "/education"
-  },
+  // {
+  //   display: "Education",
+  //   link: "/education"
+  // },
   {
     display: "Projects",
     link: "/projects"

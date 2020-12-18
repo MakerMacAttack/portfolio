@@ -9,10 +9,12 @@ export default function Project({ project }) {
   return (
     <div className="project">
       <a href={project.link} target="_blank" rel="noreferrer">
-        <h3 className="sub-title">{project.title}</h3>
+        <h3 className="project-link">{project.title}</h3>
       </a>
+      <p className="body-text">{project.about}</p>
+      <p className="body-text">Tech Stack: {project.tech}</p>
       <a href={github} target="_blank" rel="noreferrer">
-        <p className="body-text">Github repo</p>
+        <h3 className="project-link">Github repo</h3>
       </a>
       <button onClick={toggle}>What I gained from this experience</button>
       {isShowing

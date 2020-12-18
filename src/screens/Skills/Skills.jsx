@@ -2,15 +2,15 @@ import React from "react";
 import "./Skills.css";
 
 export default function Skills(props) {
-  {
-    /* <div> */
-  }
-  {
-    /* <h1 class-name="screen-title">My many and varied talents</h1> */
-  }
-  {
-    /* </div> */
-  }
+  // {
+  //   <div>
+  // }
+  // {
+  //   <h1 class-name="screen-title">My many and varied talents</h1>
+  // }
+  // {
+  //   </div>
+  // }
   return (
     <div id="skillz">
       <div>

@@ -19,6 +19,14 @@ export default function NavBar() {
         {NavButtons.map((button, idx) => (
           <NavButton key={idx} display={button.display} link={button.link} />
         ))}
+        <a
+          href={"../assets/MacMayResume.pdf"}
+          target="_blank"
+          rel="noreferrer"
+          className="head-link"
+        >
+          Resume
+        </a>
         <Link to="/contact" id="contact">
           Contact Me
         </Link>
@@ -35,6 +43,14 @@ export default function NavBar() {
             setOpen={setOpen}
           />
         ))}
+        <a
+          href={"../assets/MacMayResume.pdf"}
+          target="_blank"
+          rel="noreferrer"
+          className="mobile-button"
+        >
+          Resume
+        </a>
       </div>
     </header>
   );

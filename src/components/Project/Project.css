@@ -4,3 +4,8 @@
   border: solid 2px #000080;
   max-width: 30vw;
 }
+
+.project-link {
+  color: #daa520;
+  font-size: 30px;
+}
