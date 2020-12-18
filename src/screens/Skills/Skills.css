@@ -1,9 +1,18 @@
 #skillz {
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-#skillz > ul {
-  text-align: left;
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  #skillz {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

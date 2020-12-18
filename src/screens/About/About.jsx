@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Skills from "../Skills/Skills";
 import "./About.css";
 
 export default function About(props) {
@@ -27,6 +28,7 @@ export default function About(props) {
           </h3>
         </div>
       </div>
+      <Skills />
       <h3 className="sub-title">My Journey</h3>
       <p className="body-text bio">
         As a youth, I had two passions. Videography, and computer programming. I
