@@ -41,7 +41,7 @@ export default function Skills(props) {
         <h3 className="sub-title">Databases</h3>
         <ul className="body-text">
           <li>MongoDB</li>
-          <li>Postgres</li>
+          <li>PostgreSQL</li>
         </ul>
       </div>
     </div>
