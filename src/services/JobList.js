@@ -1,5 +1,15 @@
 const JobList = [
   {
+    company: "Cogent Communications",
+    dates: "2/23-Present",
+    title: "Junior PHP Developer",
+  description: "Design, development and maintenance of a several in-house business applications to support Corporate Sales, Operations and Finance as well as other departments."},
+  {
+    company: "MediGO",
+    dates: "3/21-8/22",
+    title: "Front End Software Developer",
+  description: "Develop and maintain the front-end of a Vue.js web-app for a company with national clients. Analyze and correct bugs. Design and implement new features to anticipate client needs. Demonstrate functionality to clients and managers. Ensure full compliance with all HIPAA best-practices. Ensure styling is consistent with responsive views and across all common browsers."},
+  {
     company: "General Assembly",
     dates: "9/20-12/20",
     title: "Software Engineering Fellow",

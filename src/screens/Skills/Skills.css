@@ -1,9 +1,11 @@
 #skillz {
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
 }
 
-#skillz > ul {
+#skillz > div > ul {
   text-align: left;
 }

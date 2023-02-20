@@ -7,51 +7,55 @@ export default function About(props) {
     <div id="about">
       <h1 class-name="screen-title">Mac May</h1>
       <div id="about-box">
-        <p className="body-text" id="intro">
-          I'm Mac. Nice to meet you. I am searching for a new path in life as a
-          software engineer. My philosophy is that thoughtful planning leads to
-          reliable results. I've found that this solid foundation provides the
-          groundwork for my creative innovation, and has served me well in my
-          past as a coordinator for diverse teams. In first Congress and then
+        {/* come up with something for MediGO and something for Cogent */}
+        {/* old text - In first Congress and then
           Drexel University, I proved that grand ideas are best constructed with
           deliberate care. While at Drexel, I took advantage of the opportunity
           to pursue graduate courses in programming and computer science, and
-          I'm ready now to start the next phase of my career. My ideal
+          I'm ready now to start the next phase of my career. */}
+        <p className="body-text" id="intro">
+          I'm Mac. Nice to meet you. I am looking for my next opportunity in the
+          field of software engineering. My philosophy is that thoughtful planning leads to
+          reliable results. I've found that this solid foundation provides the
+          groundwork for my creative innovation, and has served me well as a
+          developer. My first programming job was a front-end developer at MediGO,
+          working on an app to improve the logistics of organ donation. Apart from updating,
+          improving, and adding to the app, I also handled deployment and trained new devs.
+          At Cogent, I'm working full-stack on in-house apps where my end-users are my co-workers,
+          and I'm expanding my knowledge to the back-end. My ideal next
           opportunity involves creating elegant, robust code in an environment
-          which understand the value of authenticity.
+          which understands the value of authenticity.
         </p>
         <div>
           <img id="profile" alt="Mac" src={"../assets/MacProfile.jpg"} />
           <h3 className="sub-title">
-            Back-End Engineer | Full-Stack Developer
+            Front End Engineer | Full-Stack Developer
           </h3>
         </div>
       </div>
       <h3 className="sub-title">My Journey</h3>
       <p className="body-text bio">
-        As a youth, I had two passions. Videography, and computer programming. I
-        made the tough decision to pursue video first, and{" "}
+        Growing up, my two passions were videography and computer programming. 
+        After a career in video, I decided it was time to{" "}
         <Link to="/experience" className="about-link">
-          got a job out of college
+          pursue a new life as a developer.
         </Link>{" "}
-        in live, nationally-broadcast news. I learned and grew a lot in my
-        decade in that industry, and when it came time for a new path in life, I
-        decided I could experience more by exploring my second passion.
-      </p>
-      <p className="body-text bio">
-        Now, after studying the basics, graduate courses, and{" "}
+        I took graduate courses, went to{" "}
         <Link to="/education" className="about-link">
           an intense coding academy
         </Link>
-        , I'm ready to bring my own unique insights and{" "}
+        , and became a professional software engineer.
+      </p>
+      <p className="body-text bio">
+        Now, I'm looking for the next opportunity to grow my{" "}
         <Link to="/skills" className="about-link">
           skills
         </Link>{" "}
-        to the field of software engineering, as the world around us is shaped
+        in the field, as the world around us is shaped
         more and more every day by ubiquitous code.
       </p>
       <p className="body-text bio">
-        For an example of how I combine my two passions, check out the{" "}
+        For examples of how I combine my two passions, check out the{" "}
         <Link to="/compsci" className="about-link">
           CS section
         </Link>

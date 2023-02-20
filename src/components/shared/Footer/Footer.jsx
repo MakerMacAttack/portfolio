@@ -6,8 +6,8 @@ function Footer(props) {
   return (
     <footer>
       <div id="footbox">
-        <p className="foot-text">Tech Media Management &trade;</p>
-        <p className="foot-text">2020 &copy;</p>
+        <p className="foot-text">Tech Media Magic &trade;</p>
+        <p className="foot-text">2023 &copy;</p>
         <div>
           <a
             href="https://github.com/MakerMacAttack/"
